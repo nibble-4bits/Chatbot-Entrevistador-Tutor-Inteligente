@@ -1,0 +1,266 @@
+{
+    "basicExam": {
+        "questions": [
+            {
+                "title": "¿Qué tipo de instrucción representa el siguiente código?",
+                "code": "PARA x=0 HASTA 10 HACER\n   IMPRIMIR (\"Línea \", x)\nFIN_PARA",
+                "answers": [
+                    "Estructura Repetitiva",
+                    "Estructura Selectiva",
+                    "Estructura Secuencial",
+                    "Ninguna de las tres anteriores."
+                ],
+                "indexRightAnswer": 0,
+                "type": 1
+            },
+            {
+                "title": "¿Cuál es el resultado del siguiente programa?",
+                "code": "k=3\nm=2\nSI ( NO(k > m) ) ENTONCES\n   IMPRIMIR (k)\nSINO\n   IMPRIMIR (m)\nFIN_SI",
+                "answers": [
+                    "2",
+                    "3",
+                    "0",
+                    "5"
+                ],
+                "indexRightAnswer": 0,
+                "type": 1
+            },
+            {
+                "title": "¿Qué muestra el siguiente código fuente por pantalla?",
+                "code": "x=2\n\nCASO_MULTIPLE (x) \n  CASO 1:\n    IMPRIMIR (\"Uno\")\n  CASO 2:\n    IMPRIMIR (\"Dos\")\n  CASO 3:\n    IMPRIMIR (\"Tres\")\n  SI_NO:\n    IMPRIMIR (\"Otro número\");\nFIN_CASO_MULTIPLE",
+                "answers": [
+                    "Dos",
+                    "Uno",
+                    "Tres",
+                    "Otro número"
+                ],
+                "indexRightAnswer": 0,
+                "type": 1
+            },
+            {
+                "title": "¿Cuál es el valor que se muestra por pantalla?",
+                "code": "x = 4\ny = 5\n\nx = x + 1\ny = y / x\n\nIMPRIMIR (y)",
+                "answers": [
+                    "1",
+                    "6",
+                    "5",
+                    "0"
+                ],
+                "indexRightAnswer": 0,
+                "type": 1
+            },
+            {
+                "title": "¿Cuándo entrará el programa en el siguiente bucle?",
+                "code": "MIENTRAS ((x < y) Y (a > b)) \n ... \nFIN_MIENTRAS",
+                "answers": [
+                    "Si X es menor que Y y si A es mayor que B",
+                    "Si X es menor que Y o si A es mayor que B",
+                    "Si A es mayor que B",
+                    "Si X es menor que Y"
+                ],
+                "indexRightAnswer": 0,
+                "type": 1
+            },
+            {
+                "title": "¿Qué hace el siguiente programa?",
+                "code": "PARA x=0 HASTA 10 HACER\n  IMPRIMIR (x)\nFIN_PARA",
+                "answers": [
+                    "Muestra once números ",
+                    "Muestra diez números",
+                    "Muestra diez letras \"x\"",
+                    "No compila"
+                ],
+                "indexRightAnswer": 0,
+                "type": 1
+            },
+            {
+                "title": "¿Cuál es el valor que se muestra por pantalla?",
+                "code": "x = 5\ny = 5\n\nx = x + 1\ny = y DIV x\nIMPRIMIR (x)",
+                "answers": [
+                    "6",
+                    "5",
+                    "1",
+                    "0"
+                ],
+                "indexRightAnswer": 0,
+                "type": 1
+            },
+            {
+                "title": "¿Cual es el resultado del siguiente programa?",
+                "code": "i=1\nj=2\n\nSI ((i > 1) Y (j > 4))\n   IMPRIMIR (\"true\")\nSINO\n   IMPRIMIR (\"false\")\nFIN_SI",
+                "answers": [
+                    "false",
+                    "true",
+                    "indefinido",
+                    "No compila el código"
+                ],
+                "indexRightAnswer": 0,
+                "type": 1
+            }
+        ]
+    },
+    "intermediateExam": {
+        "questions": [
+            {
+                "title": "¿Qué hace el siguiente código fuente?",
+                "code": "x=0\nflag = \"false\"\n\nMIENTRAS ((x < 10) O (flag <> \"true\")) \n  IMPRIMIR (x)\n  x = x +1\nFIN_MIENTRAS",
+                "answers": [
+                    "Se queda en un bucle infinito",
+                    "Muestra los números del 0 al 9",
+                    "Muestra los números del 1 al 10",
+                    "Muestra un 10"
+                ],
+                "indexRightAnswer": 0,
+                "type": 2
+            },
+            {
+                "title": "¿Cual es el resultado del siguiente programa?",
+                "code": "i=1\nj=2\nSI ((i >= 1) Y (j < 4)) ENTONCES\n   IMPRIMIR (\"true\")\nSINO\n   IMPRIMIR (\"false\")\nFIN_SI",
+                "answers": [
+                    "true",
+                    "Ni una respuesta es correcta",
+                    "false",
+                    "No compila el código"
+                ],
+                "indexRightAnswer": 0,
+                "type": 2
+            },
+            {
+                "title": "¿Qué hace el siguiente programa?",
+                "code": "x= 0\n\nHACER\n  IMPRIMIR (x)\n  x = x + 1\nMIENTRAS (x<10)",
+                "answers": [
+                    "Muestra los números del 0 al 9",
+                    "Muestra los números del 1 al 10",
+                    "Muestra los números del 0 al 10",
+                    "Ninguna de las tres respuestas es correcta"
+                ],
+                "indexRightAnswer": 0,
+                "type": 2
+            },
+            {
+                "title": "¿Qué hace el siguiente código fuente?",
+                "code": "x=0\nflag = 0\n\nMIENTRAS ((x < 10) Y flag = 0) \n  IMPRIMIR (x)\n  x = x + 1\nFIN_MIENTRAS",
+                "answers": [
+                    "Muestra los números del 0 al 9",
+                    "Muestra los números del 1 al 10",
+                    "Muestra un 10",
+                    "Se queda en un bucle infinito"
+                ],
+                "indexRightAnswer": 0,
+                "type": 2
+            },
+            {
+                "title": "¿Qué nos mostrará el siguiente programa?",
+                "code": "y=0.1\nMIENTRAS (y <> 1.0)\n  IMPRIMIR (y)\n  y = y + 0.1\nFIN_MIENTRAS",
+                "answers": [
+                    "Ninguna de las tres respuestas el correcta",
+                    "Los valores del 0.1 al 1.0",
+                    "Los valores del 0 al 1",
+                    "Lo más probable es que entre en un bucle infinito por la precisión double"
+                ],
+                "indexRightAnswer": 0,
+                "type": 2
+            },
+            {
+                "title": "¿Qué imprime por pantalla el siguiente código fuente?",
+                "code": "x = 10\ny = 3\n\nx = x MOD y\nIMPRIMIR (y)",
+                "answers": [
+                    "3",
+                    "4",
+                    "2",
+                    "1"
+                ],
+                "indexRightAnswer": 0,
+                "type": 2
+            },
+            {
+                "title": "¿Es correcto el siguiente programa?",
+                "code": "value = 4\n\nCASO_MULTIPLE (value MOD 2) \n  CASO 0:\n      IMPRIMIR (\"Par\")\n   case 1:\n      IMPRIMIR (\"Impar\")\nFIN_CASO_MULTIPLE",
+                "answers": [
+                    "Sí, es correcto.",
+                    "Es incorrecto, no se puede utilizar una operación en el CASO_MULTIPLE",
+                    "Es incorrecto, falta la opción SINO",
+                    "Es incorrecto, faltan más opciones"
+                ],
+                "indexRightAnswer": 0,
+                "type": 2
+            }
+        ]
+    },
+    "advancedExam": {
+        "questions": [
+            {
+                "title": "¿Qué hace el siguiente programa?",
+                "code": "y = 4;\nflag=0;\n\nPARA x=3 HASTA 10000000 INCREMENTO +2 HACER\n  SI (flag = 1) \n    y = y + (4/x)\n    flag=0\n  SINO\n    y = y - (4/x);\n    flag=1;\n  Fin_SI\nFin_PARA\nImprimir (y);",
+                "answers": [
+                    "Calcula el número PI (3.141516...)",
+                    "Calcula la serie de Fibonacci (0,1,1,2,3,5,8,13,21,...)",
+                    "Calcula números primos (solo son divisibles entre si mismo y la unidad)",
+                    "Ni una opción es correcta"
+                ],
+                "indexRightAnswer": 0,
+                "type": 3
+            },
+            {
+                "title": "¿Cuál es la salida del siguiente programa?",
+                "code": "x=5\ny=5\n\nSI (x<10) ENTONCES\n   SI (y<10) ENTONCES\n      IMPRIMIR (\"Uno\")\n   SINO\n      IMPRIMIR (\"Dos\")\n   FIN_SI\n   IMPRIMIR (\"Tres\")\nFIN_SI",
+                "answers": [
+                    "UnoTres",
+                    "No es correcta ni una respuesta",
+                    "Uno",
+                    "Dos"
+                ],
+                "indexRightAnswer": 0,
+                "type": 3
+            },
+            {
+                "title": "¿Qué hace el siguiente código fuente?",
+                "code": "suma = 0\n\nPARA x=1 HASTA 100 HACER \n  SI (x MOD 2<> 0) \n     suma = suma + x\n  FIN_SI \nFIN_PARA",
+                "answers": [
+                    "Ninguna de las anteriores respuestas es válida",
+                    "Suma los 100 primeros números",
+                    "Suma los 100 primeros números impares",
+                    "Suma los 100 primeros números pares"
+                ],
+                "indexRightAnswer": 0,
+                "type": 3
+            },
+            {
+                "title": "¿Cuál es la salida del siguiente programa?",
+                "code": "contador=1\n\nMIENTRAS (contador<=10) \n  SI (contador MOD 2 == 1) \n      IMPRIMIR (\"****\")\n  SINO\n      IMPRIMIR (\"++++++++\")\n  FIN_SI\n  contador = contador + 1\nFIN_MIENTRAS",
+                "answers": [
+                    "Alterna 5 veces cada uno los símbolos * y +",
+                    "Genera 5 líneas con símbolos *",
+                    "Genera 5 líneas con símbolos +",
+                    "Alterna 10 veces cada uno los símbolos * y +"
+                ],
+                "indexRightAnswer": 0,
+                "type": 3
+            },
+            {
+                "title": "¿Hace lo mismo el código fuente Uno y el código fuente Dos?",
+                "code": "/* Código Uno*/\nx= 0\nHACER\n  IMPRIMIR (x)\n  x = x + 1\nMIENTRAS (x<10)\n\n/* Código Dos */\ny= 0\nMIENTRAS (y<10)\n  IMPRIMIR (y)\n  y = y + 1\nFIN_MIENTRAS",
+                "answers": [
+                    "Sí, los dos muestran del 0 al 9",
+                    "No, el primero muestra del 1 al 10 y el segundo del 0 al 9",
+                    "No, el primero muestra del 0 al 9 y el segundo del 1 al 10",
+                    "Sí, los dos muestran del 1 al 10"
+                ],
+                "indexRightAnswer": 0,
+                "type": 3
+            },
+            {
+                "title": "¿Cuál es el valor de X e Y al final del programa?",
+                "code": "x= 0\nHACER\n  IMPRIMIR (x)\n  x = x + 1\nMIENTRAS (x<10)\n\ny= 0\nMIENTRAS (y<10){\n  IMPRIMIR (y)\n  y = y + 1\nFIN_MIENTRAS",
+                "answers": [
+                    "x=10 y=10",
+                    "x=9 y=9",
+                    "x=10 y=9",
+                    "x=9 y=10"
+                ],
+                "indexRightAnswer": 0,
+                "type": 3
+            }
+        ]
+    }
+}

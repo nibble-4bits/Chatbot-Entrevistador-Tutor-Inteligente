@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="./js/index.js"></script>
+    <title>Curso propedéutico</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 style="width: 60%; display: inline-block;">Bienvenid@ al curso propedéutico de la carrera de Ingeniería en
+            Computación Inteligente</h1>
+        <p>Por favor introduce tu ID en el siguiente espacio.</p>
+        <form id="frmLogin" class="main-form">
+            <input id="txtMatricula" type="text" required autocomplete="off" minlength="5" maxlength="6"
+                placeholder="ID o matrícula..." />
+            <button id="btnAcceder" type="submit">Acceder</button>
+        </form>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p>Confirma tu ID</p>
+            </div>
+            <div class="modal-body">
+                <p>Introdujiste el ID:</p>
+                <h1 id="modalID">Id</h1>
+                <p>¿Estás seguro que ese es tu ID?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnModalCancel" class="modal-button cancel">No, tengo que cambiarlo</button>
+                <button type="button" id="btnModalAccept" class="modal-button accept">Sí, es correcto</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+</body>
+
+</html>

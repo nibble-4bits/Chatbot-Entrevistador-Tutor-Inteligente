@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.main-form {
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#txtMatricula {
+    margin-bottom: 30px;
+    width: 80%;
+    height: 10vh;
+    text-align: center;
+    font: inherit;
+    border: 1px solid #b4b4b4;
+}
+
+#btnAcceder {
+    width: 80%;
+    height: 10vh;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #008a0b;
+    font: inherit;
+}
+
+#btnAcceder:hover {
+    cursor: pointer;
+    background-color: #009b0d;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 500%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+    font-size: 20px;
+    background-color: white;
+}
+
+.modal-header {
+    border-bottom: 1.2px solid black;
+}
+
+.modal-body {
+    padding: 3% 0;
+}
+
+.modal-footer {
+    padding: 3% 0;
+    border-top: 1.2px solid black;
+}
+
+.modal-button {
+    padding: 3%;
+    width: 42.5%;
+    margin: 0 3%;
+    font: inherit;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* outline: none; */
+}
+
+.modal-button.cancel {
+    background-color: #cf1a0d;
+}
+
+.modal-button.accept  {
+    background-color: #008111;
+}
+
+@media screen and (max-width: 992px) {
+    .modal-content {
+        width: 80%;
+        /* margin-bottom: 200px; */
+    }
+}

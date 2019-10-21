@@ -1,0 +1,356 @@
+{
+    "questions": [
+        {
+            "title": "Entiendo mejor algo:",
+            "answers": [
+                "Si lo practico",
+                "Si pienso en ello"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Me considero:",
+            "answers": [
+                "Realista",
+                "Innovador"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Cuando pienso acerca de lo que hice ayer, es más probable que lo haga sobre la base de:",
+            "answers": [
+                "Una imagen",
+                "Palabras"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Tengo tendencia a:",
+            "answers": [
+                "Entender los detalles de un tema pero no ver claramente su estructura completa",
+                "Entender la estructura completa pero no ver claramente los detalles"
+            ],
+            "type": 4
+        },
+        {
+            "title": "Cuando estoy aprendiendo algo nuevo, me ayuda:",
+            "answers": [
+                "Hablar de ello",
+                "Pensar en ello"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Si yo fuera profesor, yo preferiría dar un curso:",
+            "answers": [
+                "Que trate sobre hechos y situaciones reales de la vida",
+                "Que trate con ideas y teorías"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Prefiero obtener información nueva de:",
+            "answers": [
+                "Imágenes, diagramas, gráficas o mapas",
+                "Instrucciones escritas o información verbal"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Una vez que entiendo:",
+            "answers": [
+                "Todas las partes, entiendo el total",
+                "El total de algo, entiendo como encajan sus partes"
+            ],
+            "type": 4
+        },
+        {
+            "title": "En un grupo de estudio que trabaja con un material difícil, es más probable que:",
+            "answers": [
+                "Participe y contribuya con ideas",
+                "No participe y solo escuche"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Es más fácil para mí:",
+            "answers": [
+                "Aprender hechos",
+                "Aprender conceptos"
+            ],
+            "type": 2
+        },
+        {
+            "title": "En un libro con muchas imágenes y gráficas es más probable que:",
+            "answers": [
+                "Revise cuidadosamente las imágenes y las gráficas",
+                "Me concentre en el texto escrito"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Cuando resuelvo problemas de matemáticas:",
+            "answers": [
+                "Generalmente trabajo sobre las soluciones con un paso a la vez",
+                "Frecuentemente sé cuales son las soluciones, pero luego tengo dificultad para imaginarme los pasos para llegar a ellas"
+            ],
+            "type": 4
+        },
+        {
+            "title": "En las clases a las que he asistido:",
+            "answers": [
+                "He llegado a saber como son muchos de los estudiantes",
+                "Raramente he llegado a saber como son muchos estudiantes."
+            ],
+            "type": 1
+        },
+        {
+            "title": "Cuando leo temas que no son de ficción, prefiero:",
+            "answers": [
+                "Algo que me enseñe nuevos hechos o me diga como hacer algo",
+                "Algo que me dé nuevas ideas en que pensar"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Me gustan los maestros:",
+            "answers": [
+                "Que utilizan muchos esquemas en el pizarrón",
+                "Que toman mucho tiempo para explicar"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Cuando estoy analizando un cuento o una novela:",
+            "answers": [
+                "Pienso en los incidentes y trato de acomodarlos para configurar los temas",
+                "Me doy cuenta de cuales son los temas cuando termino de leer y luego tengo que regresar y encontrar los incidentes que los demuestran"
+            ],
+            "type": 4
+        },
+        {
+            "title": "Cuando comienzo a resolver un problema de tarea, es más probable que:",
+            "answers": [
+                "Comience a trabajar en su solución inmediatamente",
+                "Primero trate de entender completamente el problema"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Prefiero la idea de:",
+            "answers": [
+                "Certeza",
+                "Teoría"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Recuerdo mejor:",
+            "answers": [
+                "Lo que veo",
+                "Lo que oigo"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Es más importante para mí que un profesor:",
+            "answers": [
+                "Exponga el material en pasos secuenciales claros",
+                "Me dé un panorama general y relacione el material con otros temas"
+            ],
+            "type": 4
+        },
+        {
+            "title": "Prefiero estudiar:",
+            "answers": [
+                "En un grupo de estudio",
+                "Solo"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Me considero:",
+            "answers": [
+                "Cuidadoso en los detalles de mi trabajo",
+                "Creativo en la forma en la que hago mi trabajo"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Cuando alguien me da direcciones de nuevos lugares, prefiero:",
+            "answers": [
+                "Un mapa",
+                "Instrucciones escritas"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Aprendo:",
+            "answers": [
+                "A un paso constante. Si estudio con ahínco consigo lo que deseo",
+                "En inicios y pausas. Me llego a confundir y súbitamente lo entiendo"
+            ],
+            "type": 4
+        },
+        {
+            "title": "Prefiero primero:",
+            "answers": [
+                "Hacer algo y ver que sucede",
+                "Pensar como voy a hacer algo"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Cuando leo por diversión, me gustan los escritores que:",
+            "answers": [
+                "Dicen claramente los que desean dar a entender",
+                "Dicen las cosas en forma creativa e interesante"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Cuando veo un esquema o bosquejo en clase, es más probable que recuerde:",
+            "answers": [
+                "La imagen",
+                "Lo que el profesor dijo acerca de ella"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Cuando me enfrento a un cuerpo de información:",
+            "answers": [
+                "Me concentro en los detalles y pierdo de vista el total de la misma",
+                "Trato de entender el todo antes de ir a los detalles"
+            ],
+            "type": 4
+        },
+        {
+            "title": "Recuerdo más fácilmente:",
+            "answers": [
+                "Algo que he hecho",
+                "Algo en lo que he pensado mucho"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Cuando tengo que hacer un trabajo, prefiero:",
+            "answers": [
+                "Dominar una forma de hacerlo",
+                "Intentar nuevas formas de hacerlo"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Cuando alguien me enseña datos, prefiero:",
+            "answers": [
+                "Gráficas",
+                "Resúmenes con texto"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Cuando escribo un trabajo, es más probable que:",
+            "answers": [
+                "Lo haga (piense o escriba) desde el principio y avance",
+                "Lo haga (piense o escriba) en diferentes partes y luego las ordene"
+            ],
+            "type": 4
+        },
+        {
+            "title": "Cuando tengo que trabajar en un proyecto de grupo, primero quiero:",
+            "answers": [
+                "Realizar una \"tormenta de ideas\" donde cada uno contribuye con ideas",
+                "Realizar la \"tormenta de ideas\" en forma personal y luego juntarme con el grupo para comparar las ideas"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Considero que es mejor elogio llamar a alguien:",
+            "answers": [
+                "Sensible",
+                "Imaginativo"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Cuando conozco gente en una fiesta, es más probable que recuerde:",
+            "answers": [
+                "Cómo es su apariencia",
+                "Lo que dicen de sí mismo"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Cuando estoy aprendiendo un tema, prefiero:",
+            "answers": [
+                "Mantenerme concentrado en ese tema, aprendiendo lo más que pueda de él",
+                "Hacer conexiones entre ese tema y temas relacionados"
+            ],
+            "type": 4
+        },
+        {
+            "title": "Me considero:",
+            "answers": [
+                "Abierto",
+                "Reservado"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Prefiero cursos que dan más importancia a:",
+            "answers": [
+                "Material concreto (hechos, datos)",
+                "Material abstracto (conceptos, teorías)"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Para divertirme, prefiero:",
+            "answers": [
+                "Ver la televisión",
+                "Leer un libro"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Algunos profesores inician sus clases haciendo un bosquejo de lo que enseñarán. Esos bosquejos son:",
+            "answers": [
+                "Algo útiles para mí",
+                "Muy útiles para mí"
+            ],
+            "type": 4
+        },
+        {
+            "title": "La idea de hacer una tarea en grupo con una sola calificación para todos:",
+            "answers": [
+                "Me parece bien",
+                "No me parece bien"
+            ],
+            "type": 1
+        },
+        {
+            "title": "Cuando hago grandes cálculos:",
+            "answers": [
+                "Tiendo a repetir todos mis pasos y revisar cuidadosamente mi trabajo",
+                "Me cansa hacer su revisión y tengo que esforzarme para hacerlo"
+            ],
+            "type": 2
+        },
+        {
+            "title": "Tiendo a recordar lugares en los que he estado:",
+            "answers": [
+                "Fácilmente y con bastante exactitud",
+                "Con dificultad y sin mucho detalle"
+            ],
+            "type": 3
+        },
+        {
+            "title": "Cuando resuelvo problemas en grupo, es más probable que yo:",
+            "answers": [
+                "Piense en los pasos para la solución de los problemas",
+                "Piense en las posibles consecuencias o aplicaciones de la solución en un amplio rango de campos"
+            ],
+            "type": 4
+        }
+    ]
+}

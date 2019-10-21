@@ -1,0 +1,94 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    padding: 0;
+}
+
+li {
+    padding: 1.5%;
+}
+
+pre {
+    overflow: auto;
+    border: 1px solid #aaaaaa;
+    padding: 3%;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #e7e7e7;
+    margin: 0 5% 0 5%;
+    font-weight: initial;
+}
+
+.question-header {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.question-code {
+    margin-bottom: 5%;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    align-content: center;
+}
+
+.first-col {
+    margin-top: -30px;
+}
+
+.btn {
+    outline: none;
+    background-color: #00a30e;
+    color: white;
+    font: inherit;
+}
+
+.full-screen {
+    position: fixed;
+    width: 100vw !important;
+    height: 100vh !important;
+    top: -10%;
+    left: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .row {
+        height: 200vh;
+    }
+    
+    .row > div {
+        height: 50%;
+    }
+
+    #chatbot {
+        width: 100%;
+        height: 95%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .row {
+        height: 100vh;
+    }
+    
+    .row > div {
+        height: 100%;
+    }
+
+    #chatbot {
+        margin-top: 5%;
+        width: 85%;
+        height: 90%;
+    }
+}
